@@ -1,0 +1,18 @@
+name: GemSMP
+version: 1.0.0
+main: dev.gemsmp.GemSMP
+api-version: '1.21.11'
+commands:
+  startsmp: {description: Assign unique starting gems, permission: gemsmp.admin}
+  stopsmp: {description: Reset the SMP gem state, permission: gemsmp.admin}
+  activate1: {description: Activate gem ability 1}
+  activate2: {description: Activate gem ability 2}
+  activate3: {description: Activate gem ultimate}
+  passive: {description: Toggle gem passive}
+  deposit: {description: Deposit corrupted hearts}
+  abilitytrust: {description: Trust an ally}
+  gemstats: {description: Show gem statistics}
+  title: {description: Equip a mastered gem title}
+  eventstart: {description: Start a secret event, permission: gemsmp.admin}
+permissions:
+  gemsmp.admin: {default: op}

@@ -1,0 +1,6 @@
+gemstats: true
+kill-effects: true
+ability-kill-messages: false
+gem-death-messages: true
+awakening-announcement: true
+warden-heart-guaranteed: true

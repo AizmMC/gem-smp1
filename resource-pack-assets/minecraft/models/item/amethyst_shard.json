@@ -1,0 +1,80 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/amethyst_shard"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1001
+      },
+      "model": "gemsmp:item/luck"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1002
+      },
+      "model": "gemsmp:item/swift"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1003
+      },
+      "model": "gemsmp:item/ember"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1004
+      },
+      "model": "gemsmp:item/tide"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1005
+      },
+      "model": "gemsmp:item/air"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1006
+      },
+      "model": "gemsmp:item/prism"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1007
+      },
+      "model": "gemsmp:item/lunar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1008
+      },
+      "model": "gemsmp:item/chronos"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1009
+      },
+      "model": "gemsmp:item/soul"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1010
+      },
+      "model": "gemsmp:item/upgrader"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1011
+      },
+      "model": "gemsmp:item/curse_of_power"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1012
+      },
+      "model": "gemsmp:item/corrupted_heart"
+    }
+  ]
+}
